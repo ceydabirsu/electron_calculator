@@ -15,4 +15,7 @@ describe('Electrons', function () {
     expect(calculator.aroundTheCores([6, 6, 4, 4, 1, 3])).toBe(2);
     });
 
+    it('returns 12 for [3, 5, 3, 5, 4, 2]', function () {
+    expect(calculator.aroundTheCores([3, 5, 3, 5, 4, 2])).toBe(12);
+    });
 });
